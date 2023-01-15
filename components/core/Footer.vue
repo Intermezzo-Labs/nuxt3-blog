@@ -292,7 +292,7 @@
                     />
                   </svg>
 
-                  <span class="text-gray-700">john@doe.com</span>
+                  <span class="text-gray-700">outreach@intermezzolabs.xyz</span>
                 </a>
               </li>
 
