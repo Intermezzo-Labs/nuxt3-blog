@@ -1,8 +1,10 @@
 <template>
-  <header class="bg-black text-white">
-    <div class="flex h-24 container mx-auto items-center gap-12">
+  <header class="bg-black text-white px-4 sm:px-0">
+    <div
+      class="flex h-24 container mx-auto items-center gap-12 justify-between"
+    >
       <NuxtLink to="/"><AppLogo /></NuxtLink>
-      <CoreNavigation class="flex-1 text-right" />
+      <CoreNavigation class="flex-1 text-right hidden sm:block" />
       <div>
         <AppBtn disabled>Connect</AppBtn>
       </div>
