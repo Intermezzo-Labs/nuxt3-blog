@@ -1,7 +1,7 @@
 <template>
-  <main>
-    <ModuleHero>
+  <NuxtLayout>
+    <main>
       <ContentDoc />
-    </ModuleHero>
-  </main>
+    </main>
+  </NuxtLayout>
 </template>

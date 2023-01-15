@@ -1,8 +1,10 @@
 <template>
   <nav class="space-x-8 font-medium">
-    <NuxtLink to="/about">About</NuxtLink>
-    <NuxtLink to="/blog">Blog</NuxtLink>
-    <NuxtLink to="/services">Services</NuxtLink>
+    <ContentNavigation v-slot="{ navigation }">
+      <NuxtLink v-for="link of navigation" :key="link._path" :to="link._path">{{
+        link.title
+      }}</NuxtLink>
+    </ContentNavigation>
   </nav>
 </template>
 

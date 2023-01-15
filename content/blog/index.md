@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Blog Page"
 description: "Intermezzo Labs Blog"
 tags: [Nuxt, Content, Learning, first]
 ---
