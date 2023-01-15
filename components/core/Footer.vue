@@ -1,6 +1,6 @@
 <template>
   <footer aria-label="Site Footer" class="bg-white">
-    <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+    <div class="container px-4 mx-auto sm:px-0">
       <div class="lg:grid lg:grid-cols-2">
         <div
           class="py-8 border-b border-gray-100 lg:order-last lg:border-b-0 lg:border-l lg:py-16 lg:pl-16"
