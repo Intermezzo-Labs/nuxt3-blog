@@ -5,6 +5,6 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org/api/configuration
   },
   tailwindcss: {
-    cssPath: "~/assets/css/main.css"
-  }
-})
+    cssPath: "~/assets/css/main.css",
+  },
+});

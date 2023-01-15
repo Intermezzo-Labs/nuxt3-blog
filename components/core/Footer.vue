@@ -1,13 +1,4 @@
 <template>
-  <!--
-  This component uses @tailwindcss/forms
-
-  yarn add @tailwindcss/forms
-  npm install @tailwindcss/forms
-
-  plugins: [require('@tailwindcss/forms')]
--->
-
   <footer aria-label="Site Footer" class="bg-white">
     <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2">
