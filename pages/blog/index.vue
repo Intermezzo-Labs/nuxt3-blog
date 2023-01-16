@@ -4,7 +4,7 @@
       <ContentDoc />
     </main>
     <section>
-      <div class="container mx-auto max-w-3xl grid grid-cols-2 gap-16">
+      <div class="container mx-auto max-w-3xl grid sm:grid-cols-2 gap-16">
         <ContentList path="/blog" v-slot="{ list }">
           <article v-for="article in list" :key="article._path">
             <div>
@@ -16,7 +16,7 @@
                 </figure>
               </NuxtLink>
             </div>
-            <div class="space-y-4 pt-4">
+            <div class="space-y-4 pt-4 px-4 sm:px-0">
               <p>27 octobre 2022 All Harvey Solidarity</p>
               <h2 class="text-2xl">
                 <NuxtLink :to="article._path">{{ article.title }}</NuxtLink>
