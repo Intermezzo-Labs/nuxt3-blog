@@ -16,10 +16,7 @@
               <h2 class="text-2xl font-medium">Request a Demo</h2>
 
               <p class="max-w-lg mt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis, harum deserunt nesciunt praesentium, repellendus eum
-                perspiciatis ratione pariatur a aperiam eius numquam doloribus
-                asperiores sunt.
+                Welcome to Intermezzo Labs, where our team of market research experts provide comprehensive SEO services including keyword research, on-page optimization, link building and analytics & reporting to improve your search engine rankings, drive more traffic to your website, and increase your online visibility. We use the latest SEO trends and strategies to help you succeed online. Contact us today to schedule a consultation and start seeing real results for your business.
               </p>
             </div>
 
