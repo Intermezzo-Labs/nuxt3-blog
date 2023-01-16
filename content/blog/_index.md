@@ -9,3 +9,7 @@ tags: [Nuxt, Content, Learning, first]
 Here's a handy bit of information for you!
 
 ::
+
+::BlogList
+
+::
