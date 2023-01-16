@@ -5,7 +5,7 @@
         <div
           class="py-8 border-b border-gray-100 lg:order-last lg:border-b-0 lg:border-l lg:py-16 lg:pl-16"
         >
-          <div class="block text-teal-600 lg:hidden">
+          <div class="block lg:hidden">
             <AppLogo />
           </div>
 
@@ -13,9 +13,9 @@
             <span class="hidden w-10 h-1 bg-teal-500 rounded lg:block"></span>
 
             <div>
-              <h2 class="text-2xl font-medium text-gray-900">Request a Demo</h2>
+              <h2 class="text-2xl font-medium">Request a Demo</h2>
 
-              <p class="max-w-lg mt-4 text-gray-500">
+              <p class="max-w-lg mt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Veritatis, harum deserunt nesciunt praesentium, repellendus eum
                 perspiciatis ratione pariatur a aperiam eius numquam doloribus
@@ -28,7 +28,7 @@
         </div>
 
         <div class="py-8 lg:py-16 lg:pr-16">
-          <div class="hidden text-teal-600 lg:block">
+          <div class="hidden lg:block">
             <AppLogo />
           </div>
 
@@ -37,52 +37,7 @@
               <p class="font-medium text-gray-900">Services</p>
 
               <nav aria-label="Footer Navigation - Services" class="mt-6">
-                <ul class="space-y-4 text-sm">
-                  <li>
-                    <a
-                      href="#"
-                      class="text-gray-700 transition hover:opacity-75"
-                    >
-                      1on1 Coaching
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      class="text-gray-700 transition hover:opacity-75"
-                    >
-                      Company Review
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      class="text-gray-700 transition hover:opacity-75"
-                    >
-                      Accounts Review
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      class="text-gray-700 transition hover:opacity-75"
-                    >
-                      HR Consulting
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      class="text-gray-700 transition hover:opacity-75"
-                    >
-                      SEO Optimisation
-                    </a>
-                  </li>
-                </ul>
+                <ul class="space-y-4 text-sm"></ul>
               </nav>
             </div>
 
@@ -97,24 +52,6 @@
                       class="text-gray-700 transition hover:opacity-75"
                     >
                       About
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      class="text-gray-700 transition hover:opacity-75"
-                    >
-                      Meet the Team
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      class="text-gray-700 transition hover:opacity-75"
-                    >
-                      Accounts Review
                     </a>
                   </li>
                 </ul>
@@ -134,24 +71,6 @@
                       Contact
                     </a>
                   </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      class="text-gray-700 transition hover:opacity-75"
-                    >
-                      FAQs
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      class="text-gray-700 transition hover:opacity-75"
-                    >
-                      Live Chat
-                    </a>
-                  </li>
                 </ul>
               </nav>
             </div>
@@ -165,23 +84,11 @@
                     Terms & Conditions
                   </a>
                 </li>
-
-                <li>
-                  <a href="#" class="text-gray-500 transition hover:opacity-75">
-                    Privacy Policy
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="text-gray-500 transition hover:opacity-75">
-                    Cookies
-                  </a>
-                </li>
               </ul>
             </nav>
 
             <p class="mt-8 text-xs text-gray-500">
-              &copy; 2022. Company Name. All rights reserved.
+              &copy; 2022. Intermezzo Labs. All rights reserved.
             </p>
           </div>
         </div>
