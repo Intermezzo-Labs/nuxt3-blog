@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout>
     <main>
-      <ContentDoc />
+      <ContentDoc path="/_index" />
     </main>
   </NuxtLayout>
 </template>
