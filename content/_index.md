@@ -1,21 +1,41 @@
 ---
-title: "My Page Title"
-description: "What a lovely page."
+title: "Intermezzo Labs"
+description: "Welcome to Intermezzo Labs, where our team of market research experts provide comprehensive SEO services including keyword research, on-page optimization, link building and analytics & reporting to improve your search engine rankings, drive more traffic to your website, and increase your online visibility. We use the latest SEO trends and strategies to help you succeed online. Contact us today to schedule a consultation and start seeing real results for your business."
 image:
-  src: "/assets/image.jpg"
+  src: "/static/banner.png"
   alt: "An image showcasing My Page."
   width: 400
   height: 300
 head:
   meta:
     - name: "keywords"
-      content: "nuxt, vue, content"
+      content: "nuxt, vue, content, web3, ai, web agency"
     - name: "robots"
       content: "index, follow"
     - name: "author"
-      content: "NuxtLabs"
+      content: "Intermezzo Labs"
     - name: "copyright"
-      content: "© 2022 NuxtLabs"
+      content: "© 2022 Intermezzo Labs LLC"
+    - property: "og:title"
+      content: "Intermezzo Labs"
+    - property: "og:description"
+      content: "Welcome to Intermezzo Labs, where our team of market research experts provide comprehensive SEO services including keyword research, on-page optimization, link building and analytics & reporting to improve your search engine rankings, drive more traffic to your website, and increase your online visibility. We use the latest SEO trends and strategies to help you succeed online. Contact us today to schedule a consultation and start seeing real results for your business."
+    - property: "og:image"
+      content: "https://intermezzolabs.com/static/intermezzo-labs-logo.png"
+    - property: "og:url"
+      content: "https://intermezzolabs.xyz"
+    - property: "og:site_name"
+      content: "Intermezzo Labs"
+    - property: "og:type"
+      content: "website"
+    - name: "twitter:card"
+      content: "summary"
+    - name: "twitter:site"
+      content: "@intermezzolabs"
+    - name: "twitter:title"
+      content: "Intermezzo Labs"
+    - name: "twitter:image"
+      content: "https://intermezzolabs.xyz/static/logo.png"
 ---
 
 ::ModuleHero
