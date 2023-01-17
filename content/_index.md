@@ -2,8 +2,8 @@
 title: "Intermezzo Labs"
 description: "Welcome to Intermezzo Labs, where our team of market research experts provide comprehensive SEO services including keyword research, on-page optimization, link building and analytics & reporting to improve your search engine rankings, drive more traffic to your website, and increase your online visibility. We use the latest SEO trends and strategies to help you succeed online. Contact us today to schedule a consultation and start seeing real results for your business."
 image:
-  src: "/public/banner.png"
-  alt: "An image showcasing My Page."
+  src: "https://mezzie-blog.netlify.app/banner.png"
+  alt: "Intermezzo Labs logo"
   width: 400
   height: 300
 head:
@@ -21,7 +21,7 @@ head:
     - property: "og:description"
       content: "Welcome to Intermezzo Labs, where our team of market research experts provide comprehensive SEO services including keyword research, on-page optimization, link building and analytics & reporting to improve your search engine rankings, drive more traffic to your website, and increase your online visibility. We use the latest SEO trends and strategies to help you succeed online. Contact us today to schedule a consultation and start seeing real results for your business."
     - property: "og:image"
-      content: "https://intermezzolabs.com/static/intermezzo-labs-logo.png"
+      content: "https://mezzie-blog.netlify.app/banner.png"
     - property: "og:url"
       content: "https://intermezzolabs.xyz"
     - property: "og:site_name"
@@ -35,7 +35,7 @@ head:
     - name: "twitter:title"
       content: "Intermezzo Labs"
     - name: "twitter:image"
-      content: "https://intermezzolabs.xyz/static/logo.png"
+      content: "https://mezzie-blog.netlify.app/banner.png"
 ---
 
 ::ModuleHero
