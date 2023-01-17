@@ -16,7 +16,14 @@
               <h2 class="text-2xl font-medium">Request a Demo</h2>
 
               <p class="max-w-lg mt-4">
-                Welcome to Intermezzo Labs, where our team of market research experts provide comprehensive SEO services including keyword research, on-page optimization, link building and analytics & reporting to improve your search engine rankings, drive more traffic to your website, and increase your online visibility. We use the latest SEO trends and strategies to help you succeed online. Contact us today to schedule a consultation and start seeing real results for your business.
+                Welcome to Intermezzo Labs, where our team of market research
+                experts provide comprehensive SEO services including keyword
+                research, on-page optimization, link building and analytics &
+                reporting to improve your search engine rankings, drive more
+                traffic to your website, and increase your online visibility. We
+                use the latest SEO trends and strategies to help you succeed
+                online. Contact us today to schedule a consultation and start
+                seeing real results for your business.
               </p>
             </div>
 
@@ -32,24 +39,32 @@
           <div class="grid grid-cols-1 gap-8 mt-8 sm:grid-cols-3">
             <div>
               <p class="font-medium text-gray-900">Services</p>
-
               <nav aria-label="Footer Navigation - Services" class="mt-6">
-                <ul class="space-y-4 text-sm"></ul>
+                <ul class="space-y-4 text-sm">
+                  <li v-for="link in servicesToc.body.toc.links">
+                    <NuxtLink
+                      :to="`${servicesToc._path}#${link.id}`"
+                      class="text-gray-700 transition hover:opacity-75"
+                    >
+                      {{ link.text }}
+                    </NuxtLink>
+                  </li>
+                </ul>
               </nav>
             </div>
 
             <div>
               <p class="font-medium text-gray-900">Company</p>
 
-              <nav aria-label="Footer Navigation - Company" class="mt-6">
+              <nav aria-label="Footer Navigation - About" class="mt-6">
                 <ul class="space-y-4 text-sm">
-                  <li>
-                    <a
-                      href="#"
+                  <li v-for="link in aboutToc.body.toc.links">
+                    <NuxtLink
+                      :to="`${aboutToc._path}#${link.id}`"
                       class="text-gray-700 transition hover:opacity-75"
                     >
-                      About
-                    </a>
+                      {{ link.text }}
+                    </NuxtLink>
                   </li>
                 </ul>
               </nav>
@@ -61,12 +76,12 @@
               <nav aria-label="Footer Navigation - Company" class="mt-6">
                 <ul class="space-y-4 text-sm">
                   <li>
-                    <a
-                      href="#"
+                    <NuxtLink
+                      to="/blog"
                       class="text-gray-700 transition hover:opacity-75"
                     >
-                      Contact
-                    </a>
+                      Blog
+                    </NuxtLink>
                   </li>
                 </ul>
               </nav>
@@ -93,3 +108,8 @@
     </div>
   </footer>
 </template>
+
+<script lang="ts" setup>
+const [servicesToc] = await queryContent("/services").find();
+const [aboutToc] = await queryContent("/about").find();
+</script>
