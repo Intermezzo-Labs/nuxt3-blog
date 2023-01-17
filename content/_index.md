@@ -2,7 +2,7 @@
 title: "Intermezzo Labs"
 description: "Welcome to Intermezzo Labs, where our team of market research experts provide comprehensive SEO services including keyword research, on-page optimization, link building and analytics & reporting to improve your search engine rankings, drive more traffic to your website, and increase your online visibility. We use the latest SEO trends and strategies to help you succeed online. Contact us today to schedule a consultation and start seeing real results for your business."
 image:
-  src: "/static/banner.png"
+  src: "/public/banner.png"
   alt: "An image showcasing My Page."
   width: 400
   height: 300
