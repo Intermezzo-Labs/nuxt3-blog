@@ -1,6 +1,8 @@
+::ModuleRichText
+
 # Our Services
 
-Intermezzo Labs provides a platform for users to create, manage, and trade digital assets using blockchain technology. Our platform is suitable for a variety of use cases, including gaming, collectibles, and e-commerce. 
+Intermezzo Labs provides a platform for users to create, manage, and trade digital assets using blockchain technology. Our platform is suitable for a variety of use cases, including gaming, collectibles, and e-commerce.
 
 ## Digital Asset Creation
 
@@ -22,5 +24,4 @@ We understand that every business has unique needs. That's why we offer custom s
 
 Our team of experienced blockchain developers is available to provide support and guidance throughout the entire process. Whether you're just getting started or need help with an existing project, we're here to help.
 
-
-[Back home](/)
+::

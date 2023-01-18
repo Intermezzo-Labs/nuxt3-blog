@@ -1,3 +1,5 @@
+::ModuleRichText
+
 # About
 
 Intermezzo Labs is a platform that allows users to create, manage, and trade digital assets using blockchain technology. Our platform is designed for a variety of use cases, including gaming, collectibles, and e-commerce.
@@ -21,5 +23,4 @@ Intermezzo Labs is led by a team of experienced blockchain developers and entrep
 
 If you have any questions or would like to learn more about Intermezzo Labs, please don't hesitate to contact us. We would be happy to help.
 
-
-[Back home](/)
+::
