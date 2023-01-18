@@ -8,4 +8,10 @@ export default defineNuxtConfig({
   tailwindcss: {
     cssPath: "~/assets/css/main.css",
   },
+  runtimeConfig: {
+    public: {
+      NUXT_DISCORD_WEBHOOK_SPIDER_BOT_URL:
+        process.env.NUXT_DISCORD_WEBHOOK_SPIDER_BOT_URL,
+    },
+  },
 });

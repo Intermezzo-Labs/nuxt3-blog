@@ -20,10 +20,7 @@
                 experts provide comprehensive SEO services including keyword
                 research, on-page optimization, link building and analytics &
                 reporting to improve your search engine rankings, drive more
-                traffic to your website, and increase your online visibility. We
-                use the latest SEO trends and strategies to help you succeed
-                online. Contact us today to schedule a consultation and start
-                seeing real results for your business.
+                traffic to your website, and increase your online visibility.
               </p>
             </div>
 
