@@ -11,8 +11,8 @@ const sendContactRequest = async (email: string) => {
     if (!url) throw new Error("Spider Bot Webook is not set");
     const input: DiscordInput = {
       content: `New Contact Form Submission: ${email}`,
-      username: "Spider Bot",
-      avatar_url: "https://your-avatar-url.com",
+      username: "Lead Bot",
+      avatar_url: "https://intermezzolabs.xyz/logo.png",
     };
     return fetch(url, {
       method: "POST",

@@ -9,19 +9,19 @@ image:
 head:
   meta:
     - name: "keywords"
-      content: "nuxt, vue, content, web3, ai, web agency"
+      content: "nuxt, vue, content, web3, AI, web agency, marketing, blog, AI Solutions"
     - name: "robots"
       content: "index, follow"
     - name: "author"
       content: "Intermezzo Labs"
     - name: "copyright"
-      content: "© 2022 Intermezzo Labs LLC"
+      content: "© 2023 Intermezzo Labs LLC"
     - property: "og:title"
       content: "Intermezzo Labs"
     - property: "og:description"
       content: "Welcome to Intermezzo Labs, We provide a platform for users to create, manage and trade digital assets. These platforms can be used for a variety of purposes, such as gaming, collectibles, and e-commerce. Intermezzo Labs is for anyone who wants to leverage blockchain technology."
     - property: "og:image"
-      content: "https://mezzie-blog.netlify.app/banner.png"
+      content: "https://intermezzolabs.xyz/banner.png"
     - property: "og:url"
       content: "https://intermezzolabs.xyz"
     - property: "og:site_name"
@@ -35,7 +35,7 @@ head:
     - name: "twitter:title"
       content: "Intermezzo Labs"
     - name: "twitter:image"
-      content: "https://mezzie-blog.netlify.app/banner.png"
+      content: "https://intermezzolabs.xyz/banner.png"
 ---
 
 ::ModuleHero
