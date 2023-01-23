@@ -9,7 +9,7 @@ image:
 head:
   meta:
     - name: "keywords"
-      content: "nuxt, vue, content, web3, AI, web agency, marketing, blog, AI Solutions"
+      content: "nuxt, vue, content, web3, web agency, marketing, blog, AI Solutions"
     - name: "robots"
       content: "index, follow"
     - name: "author"
