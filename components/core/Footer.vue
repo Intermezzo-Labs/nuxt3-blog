@@ -97,7 +97,7 @@
             </nav>
 
             <p class="mt-8 text-xs text-gray-500">
-              &copy; 2022. Intermezzo Labs. All rights reserved.
+              &copy; 2023. Intermezzo Labs. All rights reserved.
             </p>
           </div>
         </div>
