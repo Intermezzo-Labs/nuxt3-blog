@@ -3,6 +3,41 @@ title: "Local SEO Best Practices: How to Rank in Local Search Results"
 description: "Want to rank higher in local search results? Learn the best practices for optimizing your website for local SEO and drive more traffic to your business."
 img: "img/cover (1).JPG"
 tags: [SEO, Content Optimization, Local Optimization]
+image:
+  src: '/assets/image.jpg'
+  alt: 'An image showcasing My Page.'
+  width: 400
+  height: 300
+head:
+  meta:
+    - name: 'keywords'
+      content: 'SEO, Content Optimization, Local Optimization, Intermezzo Blog'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Intermezzo Labs Blog'
+    - name: 'copyright'
+      content: '© 2023 Intermezzo Labs'
+    - property: "og:title"
+      content: "Intermezzo Labs Blog"
+    - property: "og:description"
+      content: "Welcome to Intermezzo Labs, We provide a platform for users to create, manage and trade digital assets. These platforms can be used for a variety of purposes, such as gaming, collectibles, and e-commerce. Intermezzo Labs is for anyone who wants to leverage blockchain technology."
+    - property: "og:image"
+      content: "https://intermezzolabs.xyz/banner.png"
+    - property: "og:url"
+      content: "https://intermezzolabs.xyz"
+    - property: "og:site_name"
+      content: "Intermezzo Labs"
+    - property: "og:type"
+      content: "website"
+    - name: "twitter:card"
+      content: "summary"
+    - name: "twitter:site"
+      content: "@intermezzolabs"
+    - name: "twitter:title"
+      content: "Intermezzo Labs"
+    - name: "twitter:image"
+      content: "https://intermezzolabs.xyz/banner.png"
 ---
 
 # Local SEO Best Practices: How to Rank in Local Search Results

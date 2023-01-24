@@ -2,6 +2,41 @@
 title: "Keyword Research for SEO: The Ultimate Guide"
 description: "Keyword research is essential for SEO. Learn how to conduct keyword research and find the best keywords for your content in our ultimate guide."
 tags: [SEO, Content, Content Optimization, Keyword research]
+image:
+  src: '/assets/image.jpg'
+  alt: 'An image showcasing My Page.'
+  width: 400
+  height: 300
+head:
+  meta:
+    - name: 'keywords'
+      content: 'SEO, Content, Content Optimization, Keyword research, Intermezzo Blog'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Intermezzo Labs'
+    - name: 'copyright'
+      content: '© 2023 Intermezzo Labs'
+    - property: "og:title"
+      content: "Intermezzo Labs"
+    - property: "og:description"
+      content: "Welcome to Intermezzo Labs, We provide a platform for users to create, manage and trade digital assets. These platforms can be used for a variety of purposes, such as gaming, collectibles, and e-commerce. Intermezzo Labs is for anyone who wants to leverage blockchain technology."
+    - property: "og:image"
+      content: "https://intermezzolabs.xyz/banner.png"
+    - property: "og:url"
+      content: "https://intermezzolabs.xyz"
+    - property: "og:site_name"
+      content: "Intermezzo Labs"
+    - property: "og:type"
+      content: "website"
+    - name: "twitter:card"
+      content: "summary"
+    - name: "twitter:site"
+      content: "@intermezzolabs"
+    - name: "twitter:title"
+      content: "Intermezzo Labs"
+    - name: "twitter:image"
+      content: "https://intermezzolabs.xyz/banner.png"
 ---
 
 # Keyword Research for SEO: The Ultimate Guide
