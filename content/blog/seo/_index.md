@@ -1,5 +1,5 @@
 ---
-title: "Intermezzo Labs Blog"
+title: "Intermezzo Labs Blog SEO"
 description: "Welcome to Intermezzo Labs, We provide a platform for users to create, manage and trade digital assets. These platforms can be used for a variety of purposes, such as gaming, collectibles, and e-commerce. Intermezzo Labs is for anyone who wants to leverage blockchain technology."
 image:
   src: "https://mezzie-blog.netlify.app/banner.png"
