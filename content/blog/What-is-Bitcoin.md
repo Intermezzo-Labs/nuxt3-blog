@@ -13,9 +13,29 @@ head:
     - name: 'robots'
       content: 'index, follow'
     - name: 'author'
-      content: 'Intermezzo Labs'
+      content: 'Intermezzo Labs Blog'
     - name: 'copyright'
       content: '© 2023 Intermezzo Labs'
+    - property: "og:title"
+      content: "Intermezzo Labs Blog"
+    - property: "og:description"
+      content: "Welcome to Intermezzo Labs, We provide a platform for users to create, manage and trade digital assets. These platforms can be used for a variety of purposes, such as gaming, collectibles, and e-commerce. Intermezzo Labs is for anyone who wants to leverage blockchain technology."
+    - property: "og:image"
+      content: "https://intermezzolabs.xyz/banner.png"
+    - property: "og:url"
+      content: "https://intermezzolabs.xyz"
+    - property: "og:site_name"
+      content: "Intermezzo Labs"
+    - property: "og:type"
+      content: "website"
+    - name: "twitter:card"
+      content: "summary"
+    - name: "twitter:site"
+      content: "@intermezzolabs"
+    - name: "twitter:title"
+      content: "Intermezzo Labs"
+    - name: "twitter:image"
+      content: "https://intermezzolabs.xyz/banner.png"
 ---
 
 # What is Bitcoin? A Beginner's Guide
@@ -53,4 +73,3 @@ Another way to buy Bitcoin is through a Bitcoin ATM. These are physical machines
 ## Conclusion
 
 Bitcoin is a decentralized digital currency that allows for peer-to-peer transactions without the need for a central authority. It has the potential for high returns and is a highly liquid asset. If you are interested in investing in Bitcoin, there are several ways to do so, including through a cryptocurrency exchange or a Bitcoin ATM. However, it's important to note that investing in Bitcoin, like any other investments, comes with risks and it's important to do your own research before making any investment decisions.
-git config --global user.name "Zelspear"
