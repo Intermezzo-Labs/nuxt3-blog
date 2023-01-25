@@ -9,7 +9,7 @@
       v-if="true"
       class="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full"
     >
-    <img :src="fillerImage" class="w-full h-48 object-cover rounded-lg" />
+    <img src="@/src/banner.png" class="w-full h-48 object-cover rounded-lg" />
       <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
         <div class="sm:flex sm:items-start">
           <div
