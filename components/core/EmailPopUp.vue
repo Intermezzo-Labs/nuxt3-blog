@@ -48,3 +48,5 @@
     </div>
   </div>
 </template>
+
+<!-- pop up when user clicks on the button on a contact us button and setInterval after a user has been on the site for 30sec -->
