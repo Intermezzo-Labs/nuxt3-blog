@@ -39,4 +39,10 @@
 
 <script lang="ts" setup>
 const show = ref(true);
+
+// const shouldShowModal = ref(true);
+
+// if (localStorage.getItem('formSubmitted') === 'true') {
+//     shouldShowModal.value = false;
+// }
 </script>

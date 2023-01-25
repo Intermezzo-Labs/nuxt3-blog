@@ -1,5 +1,6 @@
 <template>
-  <form @submit.prevent="handleSubmit">
+  <!-- <form v-if="!formSubmitted" @submit.prevent="handleSubmit"> -->
+    <form @submit.prevent="handleSubmit">
     <label for="UserEmail" class="sr-only"> Email </label>
 
     <div class="flex items-center gap-4">
@@ -17,12 +18,15 @@
 </template>
 
 <script lang="ts" setup>
+import { ref } from 'vue'
 const emit = defineEmits(["submitted"]);
 const { addMsg } = useTooltip();
 
 const email = ref();
 const { sendContactRequest } = useDiscord();
+// const formSubmitted = localStorage.getItem('formSubmitted') === 'true'
 const handleSubmit = async () => {
+  localStorage.setItem('formSubmitted', 'true');
   // if (!email.value) return;
   // await sendContactRequest(email.value);
   addMsg({
