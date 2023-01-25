@@ -2,6 +2,41 @@
 title: "Understanding the Importance of Search Engine Optimization (SEO) for Small Businesses"
 description: "Search engine optimization (SEO) is an essential aspect of online marketing for small businesses. It involves optimizing website and content to rank higher in search engine results, which can help drive more traffic to a site and increase visibility online. Key elements of SEO include keyword research, on-page optimization, content creation, and link building, with a focus on quality over quantity. By understanding the key elements of SEO, small businesses can increase their visibility in search results and attract more customers."
 tags: [Search Engine Optimization (SEO), Small Business, Online Marketing, Search Engine Results]
+image:
+  src: '/assets/image.jpg'
+  alt: 'An image showcasing My Page.'
+  width: 400
+  height: 300
+head:
+  meta:
+    - name: 'keywords'
+      content: 'Search Engine Optimization (SEO), Small Business, Online Marketing, Search Engine Results, Intermezzo Blog'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Intermezzo Labs Blog'
+    - name: 'copyright'
+      content: '© 2023 Intermezzo Labs'
+    - property: "og:title"
+      content: "Intermezzo Labs Blog"
+    - property: "og:description"
+      content: "Welcome to Intermezzo Labs, We provide a platform for users to create, manage and trade digital assets. These platforms can be used for a variety of purposes, such as gaming, collectibles, and e-commerce. Intermezzo Labs is for anyone who wants to leverage blockchain technology."
+    - property: "og:image"
+      content: "https://intermezzolabs.xyz/banner.png"
+    - property: "og:url"
+      content: "https://intermezzolabs.xyz"
+    - property: "og:site_name"
+      content: "Intermezzo Labs"
+    - property: "og:type"
+      content: "website"
+    - name: "twitter:card"
+      content: "summary"
+    - name: "twitter:site"
+      content: "@intermezzolabs"
+    - name: "twitter:title"
+      content: "Intermezzo Labs"
+    - name: "twitter:image"
+      content: "https://intermezzolabs.xyz/banner.png"
 ---
 
 # Understanding the Importance of Search Engine Optimization (SEO) for Small Businesses

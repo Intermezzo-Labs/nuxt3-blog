@@ -3,6 +3,41 @@ title: "The Mobile Optimization Checklist: How to Make Your Website Mobile-Frien
 description: "Is your website mobile-friendly? Learn how to optimize for mobile devices and improve your search engine rankings with our comprehensive checklist."
 img: "img/cover (1).JPG"
 tags: [SEO, Content, Mobile Optimization, Technical Optimization]
+image:
+  src: '/assets/image.jpg'
+  alt: 'An image showcasing My Page.'
+  width: 400
+  height: 300
+head:
+  meta:
+    - name: 'keywords'
+      content: 'SEO, Content, Mobile Optimization, Technical Optimization, Intermezzo Blog'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Intermezzo Labs Blog'
+    - name: 'copyright'
+      content: '© 2023 Intermezzo Labs'
+    - property: "og:title"
+      content: "Intermezzo Labs Blog"
+    - property: "og:description"
+      content: "Welcome to Intermezzo Labs, We provide a platform for users to create, manage and trade digital assets. These platforms can be used for a variety of purposes, such as gaming, collectibles, and e-commerce. Intermezzo Labs is for anyone who wants to leverage blockchain technology."
+    - property: "og:image"
+      content: "https://intermezzolabs.xyz/banner.png"
+    - property: "og:url"
+      content: "https://intermezzolabs.xyz"
+    - property: "og:site_name"
+      content: "Intermezzo Labs"
+    - property: "og:type"
+      content: "website"
+    - name: "twitter:card"
+      content: "summary"
+    - name: "twitter:site"
+      content: "@intermezzolabs"
+    - name: "twitter:title"
+      content: "Intermezzo Labs"
+    - name: "twitter:image"
+      content: "https://intermezzolabs.xyz/banner.png"
 ---
 
 # The Mobile Optimization Checklist: How to Make Your Website Mobile-Friendly
