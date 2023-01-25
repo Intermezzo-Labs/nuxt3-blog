@@ -2,11 +2,11 @@
   <div
     class="fixed bottom-0 inset-x-0 px-4 pb-6 sm:inset-0 sm:p-0 sm:flex sm:items-center sm:justify-center"
   >
-    <div v-if="true" class="fixed inset-0 transition-opacity">
+    <div v-if="showPopup" class="fixed inset-0 transition-opacity">
       <div class="absolute inset-0 bg-gray-900 opacity-75"></div>
     </div>
     <div
-      v-if="true"
+      v-if="showPopup"
       class="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full"
     >
     <img src="@/src/banner.png" class="w-full h-48 object-cover rounded-lg" />
@@ -49,4 +49,25 @@
   </div>
 </template>
 
-<!-- pop up when user clicks on the button on a contact us button and setInterval after a user has been on the site for 30sec -->
+
+<script> 
+export default {
+  data() {
+    return {
+      showPopup: false,
+    };
+  },
+  mounted() {
+    // show popup after 3 seconds
+    setTimeout(() => {
+      this.showPopup = true;
+    }, 3000);
+  },
+  // hide popup when user clicks outside of it
+  methods: {
+    hidePopup() {
+      this.showPopup = false;
+    },
+  },
+};
+</script>
