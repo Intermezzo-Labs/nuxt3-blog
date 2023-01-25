@@ -11,7 +11,7 @@
         v-model="email"
         required
         placeholder="satoshi@nakamoto.xyz"
-        class="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
+        class="w-full p-2 rounded-lg border border-gray-800 focus:outline-none focus:border-green-500"
       />
       <AppBtn type="submit">Sign up</AppBtn>
     </div>
