@@ -1,52 +1,42 @@
 <template>
   <div
+    v-if="show"
     class="fixed bottom-0 inset-x-0 px-4 pb-6 sm:inset-0 sm:p-0 sm:flex sm:items-center sm:justify-center"
   >
-    <div v-if="true" class="fixed inset-0 transition-opacity">
+    <button class="fixed inset-0 transition-opacity" @click="show = false">
       <div class="absolute inset-0 bg-gray-900 opacity-75"></div>
-    </div>
-    <div
-      v-if="true"
-      class="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full"
+    </button>
+    <section
+      class="relative overflow-hidden rounded-lg shadow-2xl lg:pb-0 min-w-fit"
     >
-    <img src="@/src/banner.png" class="w-full h-48 object-cover rounded-lg" />
-      <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-        <div class="sm:flex sm:items-start">
-          <div
-            class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 sm:mx-0 sm:h-10 sm:w-10"
+      <div class="ml-auto p-8 text-center sm:p-12 lg:w-2/3 bg-white">
+        <p class="text-sm font-semibold uppercase tracking-widest">
+          Sign up for our newsletter
+        </p>
+
+        <h2 class="my-6 font-black uppercase">
+          <span class="text-5xl font-black sm:text-6xl"
+            >Stay up to date on
+          </span>
+          <span class="mt-2 block text-sm"
+            >the latest product releases and company news.</span
           >
-            <svg
-              class="h-6 w-6 text-green-600"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-              />
-            </svg>
-          </div>
-          
-          <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-            <h3 class="text-lg leading-6 font-medium text-gray-900">
-              Sign up for our newsletter
-            </h3>
-            <div class="mt-2">
-              <p class="text-sm leading-5 text-gray-500">
-                Stay up to date on the latest product releases and company news.
-              </p>
-            </div>
-          </div>
-        </div>
+        </h2>
+
+        <CoreContactUs @submitted="show = false" />
       </div>
-      <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
-        <CoreContactUs />
+
+      <div class="absolute bottom-0 left-0 w-full lg:h-full lg:w-1/3 bg-black">
+        <img
+          alt="Intermezzo"
+          src="/logo.png"
+          class="absolute inset-0 h-full w-full object-none"
+        />
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
-<!-- pop up when user clicks on the button on a contact us button and setInterval after a user has been on the site for 30sec -->
+<script lang="ts" setup>
+const show = ref(true);
+</script>

@@ -2,7 +2,8 @@
   <div>
     <CoreHeader />
     <slot />
-    <CoreEmailPopUp />
-    <CoreFooter class="mt-16" />
+    <CoreFooter />
   </div>
+  <CoreEmailPopUp />
+  <CoreTooltip />
 </template>

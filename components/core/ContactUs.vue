@@ -1,10 +1,8 @@
 <template>
-  <form class="w-full mt-6" @submit.prevent="handleSubmit">
+  <form @submit.prevent="handleSubmit">
     <label for="UserEmail" class="sr-only"> Email </label>
 
-    <div
-      class="p-2 border border-gray-100 rounded-md focus-within:ring sm:flex sm:items-center sm:gap-4"
-    >
+    <div class="flex items-center gap-4">
       <input
         id="UserEmail"
         type="email"
@@ -19,11 +17,19 @@
 </template>
 
 <script lang="ts" setup>
+const emit = defineEmits(["submitted"]);
+const { addMsg } = useTooltip();
+
 const email = ref();
 const { sendContactRequest } = useDiscord();
 const handleSubmit = async () => {
-  if (!email.value) return;
-  await sendContactRequest(email.value);
-  alert("Form submitted successfully");
+  // if (!email.value) return;
+  // await sendContactRequest(email.value);
+  addMsg({
+    heading: "Newsletter",
+    text: "Successfully signed up!",
+    type: "success",
+  });
+  emit("submitted");
 };
 </script>
