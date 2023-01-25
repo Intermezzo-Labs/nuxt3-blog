@@ -44,7 +44,6 @@ head:
   <video autoplay loop muted>
     <source src="/withPak.mp4" type="video/mp4">
   </video>
-  <!-- <div class="video-overlay text-white text-4xl font-medium">Contact Us Button</div> -->
 </div>
 
 ::
