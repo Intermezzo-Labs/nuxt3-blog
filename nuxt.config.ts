@@ -14,4 +14,9 @@ export default defineNuxtConfig({
         process.env.NUXT_DISCORD_WEBHOOK_SPIDER_BOT_URL,
     },
   },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  }
 });
