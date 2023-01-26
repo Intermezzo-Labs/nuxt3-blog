@@ -3,7 +3,7 @@
     v-if="show"
     class="fixed bottom-0 inset-x-0 px-4 pb-6 sm:inset-0 sm:p-0 sm:flex sm:items-center sm:justify-center"
   >
-    <button class="fixed inset-0 transition-opacity" @click="show = false">
+    <button class="fixed inset-0 transition-opacity" @click="close">
       <div class="absolute inset-0 bg-gray-900 opacity-75"></div>
     </button>
     <section
@@ -23,7 +23,7 @@
           >
         </h2>
 
-        <CoreContactUs @submitted="show = false" />
+        <CoreContactUs @submitted="close" />
       </div>
 
       <div class="absolute bottom-0 left-0 w-full lg:h-full lg:w-1/3 bg-black">
@@ -38,7 +38,13 @@
 </template>
 
 <script lang="ts" setup>
+const localStorageKey = "hide-newsLetter-popup";
 const show = ref(false);
 if (process.client)
-  show.value = localStorage.getItem("formSubmitted") !== "true";
+  show.value = localStorage.getItem(localStorageKey) !== "true";
+
+function close() {
+  show.value = false;
+  localStorage.setItem(localStorageKey, "true");
+}
 </script>

@@ -33,7 +33,6 @@ const handleSubmit = async () => {
     text: "Successfully signed up!",
     type: "success",
   });
-  localStorage.setItem("formSubmitted", "true");
   emit("submitted");
 };
 </script>
