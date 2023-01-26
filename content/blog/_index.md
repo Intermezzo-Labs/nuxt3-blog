@@ -38,6 +38,6 @@ head:
       content: "https://intermezzolabs.xyz/banner.png"
 ---
 
-::BlogList
+::ContentBlogList
 
 ::
