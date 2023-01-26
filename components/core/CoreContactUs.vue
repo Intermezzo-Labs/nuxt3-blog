@@ -22,18 +22,18 @@ import { ref } from "vue";
 
 const emit = defineEmits(["submitted"]);
 const { addMsg } = useTooltip();
+const { sendContactRequest } = useDiscord();
 
 const email = ref();
-// const { sendContactRequest } = useDiscord();
 const handleSubmit = async () => {
-  localStorage.setItem("formSubmitted", "true");
-  // if (!email.value) return;
-  // await sendContactRequest(email.value);
+  if (!email.value) return;
+  await sendContactRequest(email.value);
   addMsg({
     heading: "Newsletter",
     text: "Successfully signed up!",
     type: "success",
   });
+  localStorage.setItem("formSubmitted", "true");
   emit("submitted");
 };
 </script>
