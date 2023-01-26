@@ -1,7 +1,9 @@
 <template>
   <div>
     <CoreHeader />
-    <slot />
-    <CoreFooter class="mt-16" />
+    <main>
+      <slot />
+    </main>
+    <CoreFooter />
   </div>
 </template>
