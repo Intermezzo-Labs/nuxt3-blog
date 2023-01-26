@@ -6,6 +6,7 @@ image:
   alt: "Intermezzo Labs logo"
   width: 400
   height: 300
+navigation: false
 head:
   meta:
     - name: "keywords"

@@ -1,9 +1,9 @@
 <template>
   <div>
     <CoreHeader />
-    <slot />
+    <main>
+      <slot />
+    </main>
     <CoreFooter />
   </div>
-  <CoreEmailPopUp />
-  <CoreTooltip />
 </template>
