@@ -1,22 +1,34 @@
 ---
 title: "Promoting Your Business: A Comprehensive Guide"
-description: "The "Promote Your Business" article by Intermezzo Labs offers tips and strategies for small business owners to increase visibility and drive sales through various online marketing methods such as social media, SEO and email campaigns, with practical examples and case studies."
-tags: [Promoting business online, SEO for business, PPC advertising, Social media marketing, Content marketing, Keyword research, On-page optimization, Link building, Ad copy, Landing page optimization]
+description: 'The "Promote Your Business" article by Intermezzo Labs offers tips and strategies for small business owners to increase visibility and drive sales through various online marketing methods such as social media, SEO and email campaigns, with practical examples and case studies.'
+tags:
+  [
+    Promoting business online,
+    SEO for business,
+    PPC advertising,
+    Social media marketing,
+    Content marketing,
+    Keyword research,
+    On-page optimization,
+    Link building,
+    Ad copy,
+    Landing page optimization,
+  ]
 image:
-  src: '/assets/image.jpg'
-  alt: 'An image showcasing My Page.'
+  src: "/assets/image.jpg"
+  alt: "An image showcasing My Page."
   width: 400
   height: 300
 head:
   meta:
-    - name: 'keywords'
-      content: 'Promoting business online, SEO for business, PPC advertising, Social media marketing, Content marketing, Keyword research, On-page optimization, Link building, Ad copy, Landing page optimization'
-    - name: 'robots'
-      content: 'index, follow'
-    - name: 'author'
-      content: 'Intermezzo Labs'
-    - name: 'copyright'
-      content: '© 2023 Intermezzo Labs'
+    - name: "keywords"
+      content: "Promoting business online, SEO for business, PPC advertising, Social media marketing, Content marketing, Keyword research, On-page optimization, Link building, Ad copy, Landing page optimization"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "Intermezzo Labs"
+    - name: "copyright"
+      content: "© 2023 Intermezzo Labs"
     - property: "og:title"
       content: "Intermezzo Labs"
     - property: "og:description"
