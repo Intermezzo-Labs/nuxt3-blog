@@ -1,15 +1,17 @@
 ---
-title: "Intermezzo Labs"
+title: "Intermezzo Labs Blog"
 description: "Welcome to Intermezzo Labs, We provide a platform for users to create, manage and trade digital assets. These platforms can be used for a variety of purposes, such as gaming, collectibles, and e-commerce. Intermezzo Labs is for anyone who wants to leverage blockchain technology."
 image:
   src: "https://mezzie-blog.netlify.app/banner.png"
   alt: "Intermezzo Labs logo"
   width: 400
   height: 300
+navigation:
+  title: Blog
 head:
   meta:
     - name: "keywords"
-      content: "nuxt, vue, content, web3, web agency, marketing, blog, AI Solutions"
+      content: "Web Agency, Marketing, Blog, AI Solutions"
     - name: "robots"
       content: "index, follow"
     - name: "author"
@@ -38,13 +40,6 @@ head:
       content: "https://intermezzolabs.xyz/banner.png"
 ---
 
-::ModuleHero
-
-<div class="video-bg">
-  <video autoplay loop muted>
-    <source src="/withPak.mp4" type="video/mp4">
-  </video>
-  <!-- <div class="video-overlay text-white text-4xl font-medium">Contact Us Button</div> -->
-</div>
+::ContentBlogList
 
 ::

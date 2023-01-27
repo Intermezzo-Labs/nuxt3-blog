@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="py-12">
     <div class="container mx-auto max-w-3xl grid sm:grid-cols-2 gap-16">
       <ContentList
         path="/blog"

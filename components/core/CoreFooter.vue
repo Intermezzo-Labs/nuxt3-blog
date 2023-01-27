@@ -12,7 +12,7 @@
           <div class="mt-8 space-y-4 lg:mt-0">
             <span class="hidden w-10 h-1 bg-teal-500 rounded lg:block"></span>
 
-            <div>
+            <div class="mb-6">
               <h2 class="text-2xl font-medium">Request a Demo</h2>
 
               <p class="max-w-lg mt-4">

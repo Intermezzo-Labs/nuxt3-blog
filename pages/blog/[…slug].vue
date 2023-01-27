@@ -1,9 +1,0 @@
-<template>
-  <NuxtLayout>
-    <main>
-      <article class="prose p-4 sm:p-16 max-w-3xl m-auto">
-        <ContentDoc />
-      </article>
-    </main>
-  </NuxtLayout>
-</template>
