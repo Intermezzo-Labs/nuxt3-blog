@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-black">
-    <div class="container mx-auto text-center space-y-8">
+  <section class="bg-black sm:h-screen">
+    <div class="container h-full mx-auto text-center">
       <slot />
     </div>
   </section>
