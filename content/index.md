@@ -48,3 +48,7 @@ head:
 </div>
 
 ::
+
+::ModuleNewsletter
+
+::

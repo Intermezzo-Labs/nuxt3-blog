@@ -40,6 +40,14 @@ head:
       content: "https://intermezzolabs.xyz/banner.png"
 ---
 
-::ContentBlogList
+::ContentFeaturedBlogPosts
+::
 
+::ContentCategories
+::
+
+::ModuleNewsletter
+::
+
+::ContentBlContentCategoriesogList
 ::
