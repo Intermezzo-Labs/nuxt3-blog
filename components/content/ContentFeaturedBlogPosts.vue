@@ -21,7 +21,7 @@
         </article>
       </ContentQuery>
     </div>
-    <div class="grid sm:grid-cols-2 sm:grid-flow-row sm:px-6">
+    <div class="sm:grid sm:grid-cols-2 sm:grid-flow-row sm:px-6">
       <ContentList path="/blog" :limit="6" :skip="1" v-slot="{ list }">
         <div
           v-for="article in list"
@@ -48,7 +48,7 @@
           </article>
         </div>
       </ContentList>
-      <div class="col-span-2 text-center py-12">
+      <div class="col-span-2 text-center pb-12 sm:pt-12">
         <button>Load more</button>
       </div>
     </div>
