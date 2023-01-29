@@ -49,5 +49,5 @@ head:
 ::ModuleNewsletter
 ::
 
-::ContentBlContentCategoriesogList
+::ContentBlogList
 ::
