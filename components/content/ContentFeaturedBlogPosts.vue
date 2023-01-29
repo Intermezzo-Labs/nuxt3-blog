@@ -21,14 +21,14 @@
         </article>
       </ContentQuery>
     </div>
-    <div class="grid sm:grid-cols-2 sm:grid-flow-row sm:px-8">
+    <div class="grid sm:grid-cols-2 sm:grid-flow-row sm:px-6">
       <ContentList path="/blog" :limit="6" :skip="1" v-slot="{ list }">
         <div
           v-for="article in list"
           :key="article._path"
-          class="odd:border-r sm:px-8 group"
+          class="odd:border-r sm:px-6 group"
         >
-          <article class="pb-16 sm:py-8 sm:border-b group-last:border-0">
+          <article class="pb-16 sm:py-12 sm:border-b group-last:border-0">
             <div>
               <NuxtLink :to="article._path">
                 <figure>
@@ -48,6 +48,9 @@
           </article>
         </div>
       </ContentList>
+      <div class="col-span-2 text-center py-12">
+        <button>Load more</button>
+      </div>
     </div>
   </div>
 </template>

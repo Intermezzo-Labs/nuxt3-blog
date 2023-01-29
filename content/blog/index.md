@@ -42,3 +42,12 @@ head:
 
 ::ContentFeaturedBlogPosts
 ::
+
+::ContentCategories
+::
+
+::ModuleNewsletter
+::
+
+::ContentBlContentCategoriesogList
+::
