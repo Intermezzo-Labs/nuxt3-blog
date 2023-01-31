@@ -8,7 +8,9 @@
         <!-- branding -->
         <div>
           <NuxtLink to="/"><AppLogo /></NuxtLink>
-          <p class="hidden sm:block text-xs tracking-wide">A web agency</p>
+          <p class="hidden sm:block text-xs tracking-wide text-amber-300">
+            A web agency
+          </p>
         </div>
         <!-- navigation -->
         <div class="hidden sm:block">
@@ -16,7 +18,12 @@
             <ContentNavigation v-slot="{ navigation }">
               <ul class="space-y-2">
                 <li v-for="link of navigation" :key="link._path">
-                  <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
+                  <NuxtLink
+                    :to="link._path"
+                    class="inline-block hover:translate-x-1 transition-transform"
+                    active-class="text-amber-300"
+                    >{{ link.title }}</NuxtLink
+                  >
                 </li>
               </ul>
             </ContentNavigation>

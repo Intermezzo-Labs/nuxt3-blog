@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#111] text-white;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply inline-flex gap-2 py-2 px-7 border border-amber-500 uppercase text-xs font-medium tracking-widest;
+        @apply transition-colors hover:bg-amber-600 hover:border-amber-600
+    }
+    .btn-white {
+        @apply bg-white border-0 text-black;
+        @apply hover:bg-black hover:text-white;
+    }
+}

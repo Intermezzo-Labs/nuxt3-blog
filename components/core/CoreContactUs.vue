@@ -1,18 +1,22 @@
 <template>
-  <!-- <form v-if="!formSubmitted" @submit.prevent="handleSubmit"> -->
   <form @submit.prevent="handleSubmit">
     <label for="UserEmail" class="sr-only"> Email </label>
 
-    <div class="flex items-center gap-4">
+    <div class="flex items-center gap-1 justify-center">
       <input
         id="UserEmail"
         type="email"
         v-model="email"
         required
         placeholder="satoshi@nakamoto.xyz"
-        class="w-full p-2 rounded-lg border border-gray-800 focus:outline-none focus:border-green-500"
+        class="text-sm border-0 h-10 w-64"
       />
-      <AppBtn type="submit">Sign up</AppBtn>
+      <button
+        type="submit"
+        class="h-10 text-xs tracking-widest font-medium px-4 uppercase bg-black"
+      >
+        Sign up
+      </button>
     </div>
   </form>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="sm:pl-72">
-    <CoreHeader class="bg-white sm:bg-slate-50 sm:w-72 sm:fixed top-0 left-0" />
+    <CoreHeader class="bg-black sm:w-72 sm:fixed top-0 left-0" />
     <div class="hidden sm:fixed top-0 right-0">
       <div class="flex flex-nowrap">
         <div class="more-toggle">

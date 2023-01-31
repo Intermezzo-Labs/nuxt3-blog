@@ -1,7 +1,7 @@
 <template>
-  <aside class="bg-black text-white px-4 py-12">
+  <aside class="py-24">
     <div class="container max-w-lg mx-auto text-center">
-      <h2 class="text-2xl font-medium">Request a Demo</h2>
+      <h2 class="text-2xl font-bold">Request a Demo</h2>
 
       <p class="mt-6 mb-4 text-sm">
         We provide a platform for users to create, manage and trade digital
