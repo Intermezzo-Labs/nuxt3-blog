@@ -9,7 +9,7 @@
     <section
       class="relative overflow-hidden rounded-lg shadow-2xl lg:pb-0 min-w-fit"
     >
-      <div class="ml-auto p-8 text-center sm:p-12 lg:w-2/3 bg-white">
+      <div class="ml-auto p-8 text-center sm:p-12 lg:w-auto bg-white">
         <p class="text-sm font-semibold uppercase tracking-widest">
           Need help with a project?
         </p>
@@ -26,7 +26,7 @@
         <CoreContactUs @submitted="close" />
       </div>
 
-      <div class="absolute bottom-0 left-0 w-full lg:h-full lg:w-1/3 bg-black">
+      <div class="absolute bottom-0 left-0 w-full lg:h-full lg:w-auto bg-black">
         <img
           alt="Intermezzo"
           src="/logo.png"
