@@ -9,6 +9,8 @@ image:
 navigation: false
 head:
   meta:
+    - name: "ir-site-verification-token"
+      value: "385847353"
     - name: "keywords"
       content: "nuxt, vue, content, web3, web agency, marketing, blog, AI Solutions"
     - name: "robots"
