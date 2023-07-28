@@ -9,24 +9,24 @@
     <section
       class="relative overflow-hidden rounded-lg shadow-2xl lg:pb-0 min-w-fit"
     >
-      <div class="ml-auto p-8 text-center sm:p-12 lg:w-2/3 bg-white">
+      <div class="ml-auto p-8 text-center sm:p-12 lg:w-auto bg-white">
         <p class="text-sm font-semibold uppercase tracking-widest">
-          Sign up for our newsletter
+          Need help with a project?
         </p>
 
         <h2 class="my-6 font-black uppercase">
           <span class="text-5xl font-black sm:text-6xl"
-            >Stay up to date on
+            >Contact Us
           </span>
           <span class="mt-2 block text-sm"
-            >the latest product releases and company news.</span
+            >Looking forward to helping you</span
           >
         </h2>
 
         <CoreContactUs @submitted="close" />
       </div>
 
-      <div class="absolute bottom-0 left-0 w-full lg:h-full lg:w-1/3 bg-black">
+      <div class="absolute bottom-0 left-0 w-full lg:h-full lg:w-auto bg-black">
         <img
           alt="Intermezzo"
           src="/logo.png"

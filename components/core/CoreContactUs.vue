@@ -12,7 +12,7 @@
         placeholder="satoshi@nakamoto.xyz"
         class="w-full p-2 rounded-lg border border-gray-800 focus:outline-none focus:border-green-500"
       />
-      <AppBtn type="submit">Sign up</AppBtn>
+      <AppBtn type="submit">Submit</AppBtn>
     </div>
   </form>
 </template>
