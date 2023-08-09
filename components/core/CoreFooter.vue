@@ -76,6 +76,14 @@
                       Blog
                     </NuxtLink>
                   </li>
+                  <li>
+                    <NuxtLink
+                      to="/privacy-policy"
+                      class="text-gray-700 transition hover:opacity-75"
+                    >
+                      Privacy Policy
+                    </NuxtLink>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -85,8 +93,12 @@
             <nav aria-label="Footer Navigation - Support">
               <ul class="flex flex-wrap gap-4 text-xs">
                 <li>
-                  <a href="#" class="text-gray-500 transition hover:opacity-75">
-                    Terms & Conditions
+                  <a
+                      to="/privacy-policy"
+                      class="text-gray-700 transition hover:opacity-75"
+                    >
+                    <!-- how do i make the & show up? -->
+                    Terms &amp; Conditions
                   </a>
                 </li>
               </ul>
@@ -105,4 +117,6 @@
 <script lang="ts" setup>
 const [servicesToc] = await queryContent("/services").find();
 const [aboutToc] = await queryContent("/about").find();
+const [termsToc] = await queryContent("/terms-conditions").find();
+const [propertyPolicyToc] = await queryContent("/privacy-policy").find();
 </script>
