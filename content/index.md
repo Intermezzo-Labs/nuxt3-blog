@@ -44,9 +44,11 @@ head:
 ::ModuleHero
 
 <div class="video-bg">
+  <a href="https://ai.intermezzolabs.xyz/">
   <video autoplay loop muted>
     <source src="/withPak.mp4" type="video/mp4">
   </video>
+  </a>
 </div>
 
 ::

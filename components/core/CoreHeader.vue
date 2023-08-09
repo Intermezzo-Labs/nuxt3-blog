@@ -3,7 +3,9 @@
     <div
       class="flex flex-col sm:flex-row py-6 sm:h-20 container mx-auto items-center gap-4 sm:gap-12 text-center justify-between"
     >
-      <NuxtLink to="/"><AppLogo /></NuxtLink>
+      <NuxtLink to="https://ai.intermezzolabs.xyz/"
+        ><AppLogo />
+      </NuxtLink>
       <CoreNavigation />
     </div>
   </header>
