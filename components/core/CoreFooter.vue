@@ -84,6 +84,13 @@
                       Privacy Policy
                     </NuxtLink>
                   </li>
+                  <li>
+                    <NuxtLink href="https://ai.intermezzolabs.xyz/"
+                      class="text-gray-700 transition hover:opacity-75"
+                    >
+                      AI
+                    </NuxtLink>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -94,11 +101,10 @@
               <ul class="flex flex-wrap gap-4 text-xs">
                 <li>
                   <a
-                      to="/privacy-policy"
+                      href="https://intermezzolabs.xyz/terms-conditions"
                       class="text-gray-700 transition hover:opacity-75"
                     >
-                    <!-- how do i make the & show up? -->
-                    Terms &amp; Conditions
+                    Terms & Conditions
                   </a>
                 </li>
               </ul>
@@ -117,6 +123,6 @@
 <script lang="ts" setup>
 const [servicesToc] = await queryContent("/services").find();
 const [aboutToc] = await queryContent("/about").find();
-const [termsToc] = await queryContent("/terms-conditions").find();
+// const [termsToc] = await queryContent("/terms-conditions").find();
 const [propertyPolicyToc] = await queryContent("/privacy-policy").find();
 </script>
