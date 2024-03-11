@@ -2,7 +2,7 @@
 
 # Privacy Policy
 
-At Intermezzo Labs, accessible from https://intermezzolabs.xyz, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Intermezzo Labs and how we use it.
+At Intermezzo Labs, accessible from Quest Sidez, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Intermezzo Labs and how we use it.
 
 **Intermezzo Labs**  
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
